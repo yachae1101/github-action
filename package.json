@@ -4,13 +4,14 @@
   "description": "github-action practice",
   "main": "index.js",
   "scripts": {
-    "test": "test mocha",
+    "test": ".\\node_modules\\.bin\\mocha test.spec.js",
     "start": "nodemon app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mocha": "^10.8.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
